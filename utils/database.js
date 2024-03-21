@@ -1,5 +1,6 @@
 import { Sequelize } from 'sequelize';
 import dotenv from 'dotenv';
+import pg from 'pg';
 dotenv.config();
 
 const url=process.env.DB_URL;
