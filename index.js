@@ -6,7 +6,7 @@ import SubmissionRoute from './routes/SubmissionRoute.js';
 
 dotenv.config();
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT;
 const app = express();
 app.use(cors());
 app.use(express.json());
